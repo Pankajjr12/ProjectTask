@@ -1,0 +1,258 @@
+*{
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 80px;
+  position: relative;
+  background-color: #CE0505;
+}
+.logo{
+  color: #CE0505;
+  font-size: 32px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.logo-span{
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px 15px;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+.login-signup{
+  position: absolute;
+  right: 120px;
+  top: 25px;
+}
+.login{
+  color: white;
+  text-decoration: none;
+}
+.signup{
+  color: white;
+  word-spacing: normal;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+section{
+  position: relative;
+  padding: 20px 120px;
+}
+.title-text{
+  color: #192F60;
+  font-weight: 600;
+  font-size:36px;
+  margin-bottom: 20px;
+}
+.title-dish{
+  color: #192F60;
+  font-weight: 600;
+  font-size:25px;
+  position: absolute;
+  top:40px;
+  left:170px;
+}
+.title-fort{
+  position: absolute;
+  top:80px;
+  color: #192F60;
+  font-size: 14px;
+  left:175px;
+}
+.tilte-address{
+  position: absolute;
+  top:105px;
+  color: #636F88;
+  font-size: 14px;
+  left:175px;
+}
+.filter-article{
+  box-shadow: 0px 3px 6px #00000029;
+  height: 682px;
+  width: 260px;
+  background-color: white;
+}
+.result1-article{
+  width: 794px;
+  height: 291px;
+  background-color: white;
+  position: absolute;
+  top:100px;
+  left: 400px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.result2-article{
+  width: 794px;
+  height: 291px;
+  background-color: white;
+  left: 400px;
+  top:410px;
+  position: absolute;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.title-filter{
+  color: #192F60;
+  font-size: 18px;
+  font-weight: 600;
+  left:25px;
+  top: 15px;
+  position: relative;
+}
+.title-location{
+  color: #192F60;
+  font-size: 14px;
+  left:25px;
+  top:15px;
+  position: relative;
+}
+.home-dropdown{
+left: 25px;
+top:18px;
+width: 208px;
+height: 35px;
+color: #8C96AB;
+position: relative;
+border-color: #8C96AB;
+border-radius: 4px;
+}
+.punjab{
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.33;
+  position:relative;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8C96AB;
+}
+.title-Cuisine{
+  color: #192F60;
+  font-size: 14px;
+  left:25px;
+  top:30px;
+  position: relative;
+}
+.title-Cost{
+  color: #192F60;
+  font-size: 14px;
+  left:25px;
+  top:25px;
+  margin-top: 25px;
+  position: relative;
+}
+.title-Sort{
+  color: #192F60;
+  font-size: 14px;
+  left:25px;
+  top:25px;
+  margin-top: 25px;
+  position: relative;
+}
+.checkboxes{
+  font-size: 14px;
+  display: block;
+  left:25px;
+  top:35px;
+  margin-top: 10px;
+  color: #8C96AB;
+  position: relative;
+}
+.checkboxes input{
+  background-color: red;
+}
+
+#imgDish{
+  width: 120px;
+  height: 120px;
+  border-radius: 22%;
+  top:25px;
+  left:25px;
+  position: absolute;
+}
+hr{
+  opacity: 2;
+  position: absolute;
+  top:170px;
+  box-shadow: 0px 1px 1px #00000029;
+  margin-left:25px;
+  width: 750px;
+  color:white;
+}
+.dish-details{
+  width: 140px;
+  height: 120px;
+  top:200px;
+  left:25px;
+  position: absolute;
+  display: block;
+}
+.dish-details1{
+  width: auto;
+  height: 120px;
+  top:200px;
+  left:225px;
+  position: absolute;
+  display: block;
+}
+font{
+font-size: 14px;
+color: #636F88;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination{
+  position: absolute;
+  bottom:20px;
+  left: 45%;
+
+}
+.less-than{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #8C96AB;
+border-radius: 7px;
+opacity: 0.4;
+padding: 5px 10px;
+  width: 36px;
+height: 36px;
+  text-decoration: none;
+}
+.greater-than{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #8C96AB;
+border-radius: 7px;
+opacity: 0.4;
+padding: 5px 10px;
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+}
+.pagination a{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #8C96AB;
+border-radius: 7px;
+opacity: 0.4;
+word-wrap: normal;
+padding: 5px 10px;
+
+text-decoration: none;
+}
+.pagination a:hover{
+background: #8C96AB 0% 0% no-repeat padding-box;
+}
